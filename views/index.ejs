@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR GEN BY ANURAG</title>
+    <link rel="stylesheet" href="styles/inde.css">
+</head>
+<body>
+    <div class="con">
+        <div class="three">
+            <h1 style="font-size: 4rem">QR Code Generator</h1>
+        </div>
+        <div class="three">
+            <label for="ur" style="padding-right: 2rem;">Give your URL: </label>
+        
+            <form action="/submit" method="POST">
+
+                <input name="ur" type="url" required>
+                <br>
+                <div id="pp">
+                    <input style="width:8rem ;" type="submit" value="submit">
+                </div>
+                
+            </form>
+        </div>
+        
+        <div id="gen" style="margin-top: 3rem; height: fit-content;" class="three">
+            <img src="images/dimpu.png">
+        </div>
+    </div>
+</body>
+</html>

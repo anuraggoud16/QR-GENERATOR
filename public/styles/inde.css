@@ -1,0 +1,33 @@
+.con{
+ display: grid;
+ grid-template-columns: 1fr;
+ color: #FBF8BE;
+}
+.three{
+ font-size: 2rem;
+ grid-column: span 1;
+ display: flex;
+ flex-direction: column;
+ height: 10rem;
+ align-items: center;
+ justify-content: center;
+}
+*{
+    background-color: #234E70;
+}
+input{
+    background-color: #FBF8BE;
+    height: 2rem;
+    width: 19rem;
+}
+#btn{
+    background-color: #FBF8BE;
+    color: #234E70;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 5rem;
+}
+#pp{
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
